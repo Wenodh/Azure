@@ -97,4 +97,23 @@ Saas (Sofware as a service) Business User
 
 #Interview Questions
 
+https://www.dotnettricks.com/learn/azure/top-20-azure-administrator-interview-questions-answers
+
+https://www.dotnettricks.com/learn/azure/top-20-azure-developer-interview-questions-answers
+
+https://technicalinfobybinit.blogspot.com/2021/07/azure-administrator-interview-questions.html
+
+https://www.sqlshack.com/microsoft-azure-administrator-scenario-related-interview-questions-and-answers/
+
+https://www.edureka.co/blog/interview-questions/azure-interview-questions/
+
+https://www.infosectrain.com/blog/top-20-azure-administrator-interview-questions/
+
+https://www.interviewbit.com/azure-interview-questions/
+
+https://intellipaat.com/blog/interview-question/microsoft-azure-interview-questions/
+
+https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions?source=sl_frs_nav_playlist_video_clicked
+
+https://www.guru99.com/azure-interview-questions-answers.html
 
