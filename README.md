@@ -42,6 +42,22 @@
 
 https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-6.2.1
 
+Azure virtual Machines https://docs.microsoft.com/en-us/azure/virtual-machines/
+
+Create a Windows virtual machine in the Azure portal https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal
+
+Sizes for virtual machines in Azure https://docs.microsoft.com/en-us/azure/virtual-machines/sizes
+
+Availability options for Azure Virtual Machines https://docs.microsoft.com/en-us/azure/virtual-machines/availability
+
+Availability sets overview https://docs.microsoft.com/en-us/azure/virtual-machines/availability-set-overview
+
+Availability Zones in Azure https://docs.microsoft.com/en-us/azure/availability-zones/az-overview?context=/azure/virtual-machines/context/context
+
+Create a Windows virtual machine in Azure with PowerShell https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-powershell
+
+Create a Windows virtual machine with the Azure CLI https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli
+
 Lab :
 
 1. Assign a policy to restrict resource creation apart from East US region.
