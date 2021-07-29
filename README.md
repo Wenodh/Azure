@@ -40,9 +40,45 @@
 
 [Azure Lock types](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources?tabs=json)
 
+https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-6.2.1
+
 Lab :
 
 1. Assign a policy to restrict resource creation apart from East US region.
 2. Explore the options for creating support request to Microsoft.
 3. Assign resource lock (both read-only and delete lock
+
+#Benifits
+
+1.High Availability,Fault Tolerance and Disaster Recovery.
+
+- Availability Zones
+- Availabilty sets
+- Virtual Machine Scale Sets (VMSS)
+
+2.Scalability and Elasticity.
+
+3.Business Agility.
+
+4.Economies of Scale.
+
+5.Capital Expenditure(CapEx) and Operational Expenditure (OpEx).
+
+6.The Consumption-Based.
+
+On-premises
+Iaas (Infrastructure as a service) System Managers
+Paas (Platform as a service) Developers and Deployers
+Saas (Sofware as a service) Business User
+
+##cloud types
+
+1>Public Cloud
+
+2>Private Cloud
+
+3>Gov Cloud
+
+#Interview Questions
+
 
