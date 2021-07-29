@@ -117,3 +117,4 @@ https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions?s
 
 https://www.guru99.com/azure-interview-questions-answers.html
 
+There are quota limits on each subscription that can impact VM creation. By default, you cannot have more than 20 virtual cores across all VMs within a region. You can either split up VMs across regions or file an online request to increase your limits.
