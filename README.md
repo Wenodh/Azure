@@ -270,6 +270,152 @@ Lab:
 4. Restore the VM using snapshot
 5. Restore the files and folders
 
+[11:11, 9/8/2021] Rk 2 Rama Krishna: https://docs.microsoft.com/en-us/azure/backup/quick-backup-vm-powershell
+[11:11, 9/8/2021] Rk 2 Rama Krishna: https://docs.microsoft.com/en-us/azure/backup/quick-backup-vm-cli
+[11:23, 9/8/2021] Rk 2 Rama Krishna: https://docs.microsoft.com/en-us/previous-versions/azure/virtual-machines/scripts/virtual-machines-windows-powershell-sample-create-vm
+[11:26, 9/8/2021] Rk 2 Rama Krishna: https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-
+
+[06:56, 11/8/2021] Rk 2 Rama Krishna: 1. Azure SQL Database
+   https://docs.microsoft.com/en-us/azure/azure-sql/
+
+2. Create SQL Server 2019 on a Windows virtual machine in the Azure portal
+   https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-create-portal-quickstart
+
+   https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/create-sql-vm-portal
+
+3. Create SQL Server on a Windows virtual machine with Azure PowerShell
+   https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/sql-vm-create-powershell-quickstart
+
+   https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/create-sql-vm-powershell
+
+4. Connect to a SQL Server virtual machine on Azure
+   https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machine…
+[06:56, 11/8/2021] Rk 2 Rama Krishna: Lab:
+
+1. Create SQL Server in Azure VM Using portal
+2. Create SQL Server in Azure VM using powershell
+3. Connect to sql server and create new user
+4. Backup sql server in azure vm using portal
+5. Backup sql server in azure vm using powershell
+[11:18, 11/8/2021] Rk 2 Rama Krishna: 1. Remove machine specific information by generalizing a VM before creating an image
+   https://docs.microsoft.com/en-us/azure/virtual-machines/generalize
+
+2. Create a managed image of a generalized VM in Azure
+   https://docs.microsoft.com/en-us/azure/virtual-machines/windows/capture-image-resource
+
+3. Shared Image Galleries overview
+   https://docs.microsoft.com/en-us/azure/virtual-machines/shared-image-galleries
+
+4. Virtual Machine Scale Sets documentation
+   https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/
+[11:19, 11/8/2021] Rk 2 Rama Krishna: 1. Create an Image from Azure windows VM using portal/powershell
+2. Create an IMage from Azure linux VM 
+3. Create Azure VMSS (Virtual machine scale set) using portal/powershell
+[11:05, 12/8/2021] Rk 2 Rama Krishna: Storage Accounts:
+================
+
+Types of Storage accounts:
+
+1. Standard general-purpose v2
+2. Premium block blobs
+3. Premium file shares
+4. Premium page blobs
+
+
+Types storage services:
+
+1. Blob Storage (Binary large object)
+	page blob
+	append blob
+	block blob
+2. File share
+3. Queues
+4. Table 
+
+
+Azure Storage redundancy:
+
+1. LRS (Locally-redundant storage) - 3 copies in signle region
+2. ZRS (Zone-redundant storage) - 3 copies in different zones in a single region
+3. GRS (Geo-redundant storage) - 6 copies,3 copies in primary 3 copies in secondary
+4. RA-GRS (ReadAccess-Geo-redundant storage) - 6 copies, read access in secondary
+5. GZRS (Geo-Zone-redundant storage) - 6 copies
+6. RA-GZRS (ReadAccess-Geo-zone-redundant storage) - 6 copies
+
+
+Access tiers:
+
+1. Hot - Frequently accessing the data
+2. Cool - Infrequently accessing the data
+3. Archive - Not in use
+
+Performance tiers:
+
+1. Standard
+2. Premium
+[11:06, 12/8/2021] Rk 2 Rama Krishna: https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview#performance-tiers
+[11:07, 12/8/2021] Rk 2 Rama Krishna: https://docs.microsoft.com/en-us/azure/storage/common/storage-introduction?toc=/azure/storage/blobs/toc.json
+[11:07, 12/8/2021] Rk 2 Rama Krishna: https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy?toc=/azure/storage/blobs/toc.json#locally-redundant-storage
+[11:07, 12/8/2021] Rk 2 Rama Krishna: https://azure.microsoft.com/en-in/pricing/details/storage/blobs/
+
+[11:21, 13/8/2021] Rk 2 Rama Krishna: 1. Azure blob storage
+   https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction
+
+2. Azure fileshare
+   https://docs.microsoft.com/en-us/azure/storage/files/storage-files-introduction
+
+3. Mount SMB Azure file share on Windows
+   https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-windows
+
+4. Mount SMB Azure file share on Linux
+   https://docs.microsoft.com/en-us/azure/storage/files/storage-how-to-use-files-linux?tabs=smb311
+
+5. Create azure storage account using powershell
+   https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-powershell
+
+6. Create azure storage account using azurecli
+   https://docs.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-cli
+[11:23, 13/8/2021] Rk 2 Rama Krishna: Lab:
+
+1. Create Azure storage account using portal
+2. Create Azure storage account using powershell
+3. Create Azure storage account using CLI
+4. Upload some files to azure blob storage creating a container
+5. create a fileshare and upload data via portal
+6. Mount the fileshare to Azure windows VM
+7. Mount the filesahre to Azure linux VM
+
+[11:12, 14/8/2021] Rk 2 Rama Krishna: 1. Download storage explorer
+   https://azure.microsoft.com/en-in/features/storage-explorer/#overview
+
+2. Azure storage explorer import/export data
+   https://docs.microsoft.com/en-us/azure/import-export/storage-import-export-service
+   
+   https://docs.microsoft.com/en-us/azure/import-export/storage-import-export-data-from-blobs?tabs=azure-portal
+
+3. Download AzCopy
+   https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10
+
+4. Authorize access to blobs with AzCopy and Azure Active Directory (Azure AD)
+   https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-authorize-azure-active-directory
+
+5. Upload files to Azure Blob storage by using AzCopy
+   https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcop…
+[11:13, 14/8/2021] Rk 2 Rama Krishna: AzCopy Commands:
+===============
+
+#Login to Azure using AzCopy
+azcopy login --tenant-id=05d922d4-9527-4e1d-99a8-aa839c572673
+
+#Create a container in Azure Blob storage
+azcopy make "https://saaug01.blob.core.windows.net/container"
+
+#upload a file
+azcopy copy "C:\Users\Dell\Desktop\ATT.txt" "https://saaug01.blob.core.windows.net/container/ATT.txt?sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-08-31T13:15:54Z&st=2021-08-14T05:15:54Z&spr=https&sig=aPRpikCQpH5r0x3T3dS6bIi4%2FwHgUhNexdLYYeRpjDQ%3D"
+
+#Upload a directory
+azcopy copy "C:\Users\Dell\Desktop\Ansible" "https://saaug01.blob.core.windows.net/container/Ansible?sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-08-31T13:15:54Z&st=2021-08-14T05:15:54Z&spr=https&sig=aPRpikCQpH5r0x3T3dS6bIi4%2FwHgUhNex…
+
 #Benifits
 
 1.High Availability,Fault Tolerance and Disaster Recovery.
