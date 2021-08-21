@@ -314,15 +314,14 @@ Lab:
 [11:05, 12/8/2021] Rk 2 Rama Krishna: Storage Accounts:
 ================
 
-Types of Storage accounts:
+# Types of Storage accounts:
 
 1. Standard general-purpose v2
 2. Premium block blobs
 3. Premium file shares
 4. Premium page blobs
 
-
-Types storage services:
+# Types storage services:
 
 1. Blob Storage (Binary large object)
 	page blob
@@ -332,8 +331,7 @@ Types storage services:
 3. Queues
 4. Table 
 
-
-Azure Storage redundancy:
+# Azure Storage redundancy:
 
 1. LRS (Locally-redundant storage) - 3 copies in signle region
 2. ZRS (Zone-redundant storage) - 3 copies in different zones in a single region
