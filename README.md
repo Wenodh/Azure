@@ -306,14 +306,18 @@ Lab:
 
     ================
 
-Types of Storage accounts:
+# Types of Storage accounts:
 
 1. Standard general-purpose v2
 2. Premium block blobs
 3. Premium file shares
 4. Premium page blobs
 
+<<<<<<< HEAD
 Types storage services:
+=======
+# Types storage services:
+>>>>>>> 911d35c8800b081ed3bbfebcbcfe49e2e57e0291
 
 1. Blob Storage (Binary large object)
    page blob
@@ -321,9 +325,15 @@ Types storage services:
    block blob
 2. File share
 3. Queues
+<<<<<<< HEAD
 4. Table
 
 Azure Storage redundancy:
+=======
+4. Table 
+
+# Azure Storage redundancy:
+>>>>>>> 911d35c8800b081ed3bbfebcbcfe49e2e57e0291
 
 1. LRS (Locally-redundant storage) - 3 copies in signle region
 2. ZRS (Zone-redundant storage) - 3 copies in different zones in a single region
@@ -406,9 +416,65 @@ azcopy make "https://saaug01.blob.core.windows.net/container"
 
 azcopy copy "C:\Users\Dell\Desktop\ATT.txt" "https://saaug01.blob.core.windows.net/container/ATT.txt?sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-08-31T13:15:54Z&st=2021-08-14T05:15:54Z&spr=https&sig=aPRpikCQpH5r0x3T3dS6bIi4%2FwHgUhNexdLYYeRpjDQ%3D"
 
+<<<<<<< HEAD
 # Upload a directory
 
 azcopy copy "C:\Users\Dell\Desktop\Ansible" "<https://saaug01.blob.core.windows.net/container/Ansible?sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-08-31T13:15:54Z&st=2021-08-14T05:15:54Z&spr=https&sig=aPRpikCQpH5r0x3T3dS6bIi4%2FwHgUhNex>…
+=======
+#Upload a directory
+azcopy copy "C:\Users\Dell\Desktop\Ansible" "https://saaug01.blob.core.windows.net/container/Ansible?sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-08-31T13:15:54Z&st=2021-08-14T05:15:54Z&spr=https&sig=aPRpikCQpH5r0x3T3dS6bIi4%2FwHgUhNex…
+[19/8 11:40] Rk 2 Rama Krishna: Virtual Network:
+===============
+
+1. Virtual Network (VNET)
+
+   10.10.0.0/24 = 256
+
+VNET1 - 10.10.0.0/24 - 256 (5 Resered IP's)
+
+	10.10.0.0 : Network address
+	10.10.0.1 : Reserved by Azure for the default gateway
+	10.10.0.2 : Reserved by Azure to map the Azure DNS IPs to the VNet space
+	10.10.0.3 : Reserved by Azure to map the Azure DNS IPs to the VNet space
+	10.10.0.4
+	.
+	.
+	.
+	10.10.0.254
+	10.10.0.255 : Network broadcast address for subnets of size /25 and larger. This will be a different address in smaller subnets.
+[19/8 11:41] Rk 2 Rama Krishna: VNET Peering:
+=============
+
+1. Regional VNET Peering (Same region)
+2. Global VNET Peering (Diff region vnet's)
+[19/8 11:44] Rk 2 Rama Krishna: 1. Azure Virtual Network
+   https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
+
+2. Create a virtual network using the Azure portal
+   https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal
+
+3. Create a virtual network using PowerShell
+   https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-powershell
+
+4. Create a virtual network using the Azure CLI
+   https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-cli
+
+5. Virtual network peering
+   https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview
+
+6. Create, change, or delete a virtual network peering
+   https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-peering
+[20/8 11:13] Rk 2 Rama Krishna: 1. Create a virtual network peering - Resource Manager, different subscriptions and Azure Active Directory tenants
+
+   https://docs.microsoft.com/en-us/azure/virtual-network/create-peering-different-subscriptions
+
+2. Configure a VNet-to-VNet VPN gateway connection by using the Azure portal
+
+   https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal
+
+3. Policy-based VPN VS Route-based VPN
+   https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps?WT.mc_id=Portal-Microsoft_Azure_HybridNetworking
+>>>>>>> 911d35c8800b081ed3bbfebcbcfe49e2e57e0291
 
 # Benifits
 
