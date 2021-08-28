@@ -306,18 +306,14 @@ Lab:
 
     ================
 
-# Types of Storage accounts:
+Types of Storage accounts:
 
 1. Standard general-purpose v2
 2. Premium block blobs
 3. Premium file shares
 4. Premium page blobs
 
-<<<<<<< HEAD
 Types storage services:
-=======
-# Types storage services:
->>>>>>> 911d35c8800b081ed3bbfebcbcfe49e2e57e0291
 
 1. Blob Storage (Binary large object)
    page blob
@@ -325,15 +321,9 @@ Types storage services:
    block blob
 2. File share
 3. Queues
-<<<<<<< HEAD
 4. Table
 
 Azure Storage redundancy:
-=======
-4. Table 
-
-# Azure Storage redundancy:
->>>>>>> 911d35c8800b081ed3bbfebcbcfe49e2e57e0291
 
 1. LRS (Locally-redundant storage) - 3 copies in signle region
 2. ZRS (Zone-redundant storage) - 3 copies in different zones in a single region
@@ -416,65 +406,94 @@ azcopy make "https://saaug01.blob.core.windows.net/container"
 
 azcopy copy "C:\Users\Dell\Desktop\ATT.txt" "https://saaug01.blob.core.windows.net/container/ATT.txt?sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-08-31T13:15:54Z&st=2021-08-14T05:15:54Z&spr=https&sig=aPRpikCQpH5r0x3T3dS6bIi4%2FwHgUhNexdLYYeRpjDQ%3D"
 
-<<<<<<< HEAD
 # Upload a directory
 
 azcopy copy "C:\Users\Dell\Desktop\Ansible" "<https://saaug01.blob.core.windows.net/container/Ansible?sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-08-31T13:15:54Z&st=2021-08-14T05:15:54Z&spr=https&sig=aPRpikCQpH5r0x3T3dS6bIi4%2FwHgUhNex>…
-=======
-#Upload a directory
-azcopy copy "C:\Users\Dell\Desktop\Ansible" "https://saaug01.blob.core.windows.net/container/Ansible?sv=2020-08-04&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-08-31T13:15:54Z&st=2021-08-14T05:15:54Z&spr=https&sig=aPRpikCQpH5r0x3T3dS6bIi4%2FwHgUhNex…
-[19/8 11:40] Rk 2 Rama Krishna: Virtual Network:
-===============
 
-1. Virtual Network (VNET)
+[11:27, 23/8/2021] Rk 2 Rama Krishna: Azure Virtual Network Connectivity
+[11:31, 23/8/2021] Rk 2 Rama Krishna: Site-to-Site VPN
+[11:31, 23/8/2021] Rk 2 Rama Krishna: Point-to-Site VPN
+[11:31, 23/8/2021] Rk 2 Rama Krishna: 1. Choosing between Azure VNet Peering and VNet Gateways
+<https://azure.microsoft.com/en-in/blog/vnet-peering-and-vpn-gateways/>
 
-   10.10.0.0/24 = 256
+2. Create a Site-to-Site connection in the Azure portal
+   <https://docs.microsoft.com/en-us/azure/vpn-gateway/tutorial-site-to-site-portal>
 
-VNET1 - 10.10.0.0/24 - 256 (5 Resered IP's)
+3. Configure a Point-to-Site VPN connection using Azure certificate authentication: Azure portal
+   <https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-point-to-site-resource-manager-portal>
 
-	10.10.0.0 : Network address
-	10.10.0.1 : Reserved by Azure for the default gateway
-	10.10.0.2 : Reserved by Azure to map the Azure DNS IPs to the VNet space
-	10.10.0.3 : Reserved by Azure to map the Azure DNS IPs to the VNet space
-	10.10.0.4
-	.
-	.
-	.
-	10.10.0.254
-	10.10.0.255 : Network broadcast address for subnets of size /25 and larger. This will be a different address in smaller subnets.
-[19/8 11:41] Rk 2 Rama Krishna: VNET Peering:
-=============
+4. Generate and export certificates for Point-to-Site using PowerShell
+   <https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-certificates-point-to-site>
+   [11:32, 23/8/2021] Rk 2 Rama Krishna: Lab:
 
-1. Regional VNET Peering (Same region)
-2. Global VNET Peering (Diff region vnet's)
-[19/8 11:44] Rk 2 Rama Krishna: 1. Azure Virtual Network
-   https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
+5. Configure a VNet-to-VNet VPN gateway connection by using the Azure portal
+6. Configure a Point-to-Site VPN connection using Azure certificate authentication: Azure portal
+   [11:13, 24/8/2021] Rk 2 Rama Krishna: 1. Azure Network security group
+   <https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview>
 
-2. Create a virtual network using the Azure portal
-   https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal
+7. Azure Network interface
+   <https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-network-interface>
 
-3. Create a virtual network using PowerShell
-   https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-powershell
+8. Azure Public ip
+   <https://docs.microsoft.com/en-us/azure/virtual-network/public-ip-addresses>
 
-4. Create a virtual network using the Azure CLI
-   https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-cli
+9. Azure Traffic Analytics
+   <https://docs.microsoft.com/en-us/azure/network-watcher/traffic-analytics>
 
-5. Virtual network peering
-   https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview
+10. Azure network watcher
+    <https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-monitoring-overview>
+    [11:15, 24/8/2021] Rk 2 Rama Krishna: <https://docs.microsoft.com/en-us/azure/expressroute/expressroute-introduction>
 
-6. Create, change, or delete a virtual network peering
-   https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-peering
-[20/8 11:13] Rk 2 Rama Krishna: 1. Create a virtual network peering - Resource Manager, different subscriptions and Azure Active Directory tenants
+[10:09, 25/8/2021] Rk 2 Rama Krishna: 1. Azure Log Analytics workspace
+<https://docs.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-tutorial>
 
-   https://docs.microsoft.com/en-us/azure/virtual-network/create-peering-different-subscriptions
+2. Log queries in Azure Monitor
+   <https://docs.microsoft.com/en-us/azure/azure-monitor/logs/log-query-overview>
 
-2. Configure a VNet-to-VNet VPN gateway connection by using the Azure portal
+    <https://docs.microsoft.com/en-us/azure/azure-monitor/logs/examples>
 
-   https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal
+    <https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/tutorial?pivots=azuredataexplorer>
 
-3. Policy-based VPN VS Route-based VPN
-   https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-connect-multiple-policybased-rm-ps?WT.mc_id=Portal-Microsoft_Azure_HybridNetworking
->>>>>>> 911d35c8800b081ed3bbfebcbcfe49e2e57e0291
+3. Azure Traffic Analytics
+   <https://docs.microsoft.com/en-us/azure/network-watcher/traffic-analytics>
+
+4. Introduction to flow logging for network security groups
+   <https://docs.microsoft.com/en-us/azure/network-watcher/network-watcher-nsg-flow-logging-overview>
+
+5. Azure Keyvault
+   <https://docs.microsoft.com/en-in/azure/key-vault/general/overview>
+   [11:11, 26/8/2021] Rk 2 Rama Krishna: 1. Azure Active directory
+   <https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis>
+
+6. Compare Active Directory to Azure Active Directory
+   <https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-compare-azure-ad-to-ad>
+
+7. What are the Azure AD licenses?
+   <https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis>
+
+8. Add or delete users using Azure Active Directory
+   <https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-users-azure-active-directory>
+
+9. Add or delete users using Azure Active Directory
+   <https://docs.microsoft.com/bs-latn-ba/azure/active-directory/fundamentals/add-users-azure-active-directory>
+
+10. Reset a user's password using Azure Active Directory
+    <https://docs.microsoft.com/bs-latn-ba/azure/active-directory/fundamentals/active-directory-users-reset-password-azure-portal>
+
+11. Create a basic group and add members using Azure Active Directory
+    <https://docs.microsoft.com/bs-latn-ba/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal>
+
+12. Overview of Azure AD Multi-Factor Authentication for your organization
+    <https://docs.microsoft.com/bs-latn-ba/azure/active-directory/fundamentals/concept-fundamentals-mfa-get-started>
+
+13. Azure AD built-in roles
+    <https://docs.microsoft.com/en-us/azure/active-directory/roles/permissions-reference>
+
+14. Application and service principal objects in Azure Active Directory
+    <https://docs.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals>
+
+15. Sign in with a service principal
+    <https://docs.microsoft.com/en-us/cli/azure/authenticate-azure-cli>
 
 # Benifits
 
