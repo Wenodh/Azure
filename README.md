@@ -494,6 +494,134 @@ azcopy copy "C:\Users\Dell\Desktop\Ansible" "<https://saaug01.blob.core.windows.
 
 15. Sign in with a service principal
     <https://docs.microsoft.com/en-us/cli/azure/authenticate-azure-cli>
+[31/8 11:24] Rk 2 Rama Krishna: 1. Azure App Service
+   https://docs.microsoft.com/en-us/azure/app-service/overview
+
+2. Introduction to the App Service Environments
+   https://docs.microsoft.com/en-us/azure/app-service/environment/intro
+
+3. Deploy an ASP.NET web app using Visualstudio code
+   https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vscode
+
+4. Set up staging environments in Azure App Service
+   https://docs.microsoft.com/en-us/azure/app-service/deploy-staging-slots
+
+5. Azure App Service plan overview
+   https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans
+[31/8 12:12] Rk 2 Rama Krishna: Lab:
+
+1. Create app service (web app) 
+2. Deploy a ASP. NET application using visual studio code
+3. Create a new deployment slot and swap the code
+4. Look for the trouble shooting options
+[1/9 11:03] Rk 2 Rama Krishna: 1. Configure your App Service or Azure Functions app to use Azure AD login
+   https://docs.microsoft.com/en-us/azure/app-service/configure-authentication-provider-aad
+
+2. Application Monitoring for Azure App Service
+   https://docs.microsoft.com/en-us/azure/azure-monitor/app/azure-web-apps?tabs=net
+
+   https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
+
+3. Back up your app in Azure
+   https://docs.microsoft.com/en-us/azure/app-service/manage-backup
+
+4. Restore an app in Azure
+   https://docs.microsoft.com/en-us/azure/app-service/web-sites-restore
+
+5. Map an existing custom DNS name to Azure App Service
+   https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain?tabs=cname
+
+6. Create a web app and deploy code from GitHub using powershell script
+   https://docs.microsoft.com/en-us/azure/app-service/scripts/powershell-deploy-github?toc=/powershell/module/toc.json
+
+7. Create an App Service app and deploy files with FTP using Azure CLI
+   https://docs.microsoft.com/en-us/azure/app-service/scripts/cli-deploy-ftp?toc=/cli/azure/toc.json
+[1/9 11:05] Rk 2 Rama Krishna: Lab:
+
+1. Enable Azure Active Directory authentication to webapp
+2. Take a backup of webapp and restore it
+3. Enable monitoring using application insights for webapp 
+4. Look at the application monitoring metric on application insights
+5. Create a webapp and host sample ASP.NET app using powershell
+6. Create a webapp and host sample app using Azure CLI
+[2/9 11:11] Rk 2 Rama Krishna: 1. Azure Loadbalancer
+   https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview
+
+2. Type of loadbalancers- Ineternal/Public loadbalancer
+   https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview
+
+3. Azure Load Balancer SKUs comparision (Basic/Standard)
+   https://docs.microsoft.com/en-us/azure/load-balancer/skus
+
+4. Create a public load balancer to load balance VMs
+   https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-load-balancer-standard-public-portal?tabs=option-1-create-load-balancer-standard
+
+5. Layers of OSI Model
+   https://www.geeksforgeeks.org/layers-of-osi-model/
+
+6. Azure Virtual Machine Scale set
+   https://docs.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview
+[2/9 11:14] Rk 2 Rama Krishna: Lab:
+
+1. Create a basic loadbalancer
+2. Create two VM's in same VNET and same AVSet
+3. Enable web server for the VM's
+4. Add this two VMs as back-end pool of loadbalancer
+5. Create healthprobe and loadbalancing rules
+6. Test the traffic routing using loadbalancer front end ip
+[3/9 11:20] Rk 2 Rama Krishna: Load Balancing concepts:
+
+
+1. Loadbalancer - Public LB & Internal(private) LB
+ 		  SKU - Basic & Standard
+		  OSI Layer 4 (TCP & UDP)
+		  BackendPool: VM & VMSS
+		  Health Probe and LB Rules
+
+2. Application Gateway
+
+   		  OSI Layer 7 
+ 		  BackendPool: VM's, VMSS, Webapp & IP or FQDN
+		  Listerner
+		  WAF (Web application firewall)
+		  Route the traffic on Path Basis
+		  Multisite hosting
+		  SSL Offloading (Https -> Http)
+
+3. Traffic Manager
+                 DNS Based LB
+[3/9 11:24] Rk 2 Rama Krishna: 1. What is Azure Application Gateway?
+   https://docs.microsoft.com/en-us/azure/application-gateway/overview
+
+2. Direct web traffic with Azure Application Gateway - Azure portal
+   https://docs.microsoft.com/en-us/azure/application-gateway/quick-create-portal
+
+3. Direct web traffic with Azure Application Gateway using Azure PowerShell
+   https://docs.microsoft.com/en-us/azure/application-gateway/quick-create-powershell
+
+4. Direct web traffic with Azure Application Gateway - Azure CLI
+   https://docs.microsoft.com/en-us/azure/application-gateway/quick-create-cli
+
+5. What is Traffic Manager?
+   https://docs.microsoft.com/en-us/azure/traffic-manager/traffic-manager-overview
+
+6. Create a Traffic Manager profile using the Azure portal
+   https://docs.microsoft.com/en-us/azure/traffic-manager/quickstart-create-traffic-manager-profile
+
+7. Create a Traffic Manager profile for a highly available web application using Azure PowerShell
+   https://docs.microsoft.com/en-us/azure/traffic-manager/quickstart-create-traffic-manager-profile-powershell
+
+8. Create a Traffic Manager profile for a highly available web application using Azure CLI
+    https://docs.microsoft.com/en-us/azure/traffic-manager/quickstart-create-traffic-manager-profile-cli
+
+In[3/9 11:25] Rk 2 Rama Krishna: Lab:
+
+1. Create Appication Gateway
+2. Add App service or VM's as a backendpool
+3. Test the traffic routing
+4. Create Traffic Manager
+5. Create endpoints on priority condition
+6. test the traffic routing
 
 # Benifits
 
