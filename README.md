@@ -623,6 +623,35 @@ In[3/9 11:25] Rk 2 Rama Krishna: Lab:
 5. Create endpoints on priority condition
 6. test the traffic routing
 
+1. What is Azure Front Door?
+   https://docs.microsoft.com/en-us/azure/frontdoor/front-door-overview
+
+2. Create a Front Door for a highly available global web application
+   https://docs.microsoft.com/en-us/azure/frontdoor/quickstart-create-front-door
+
+3. Create a Front Door for a highly available global web application using Azure PowerShell
+   https://docs.microsoft.com/en-us/azure/frontdoor/quickstart-create-front-door-powershell
+
+4. Create a Front Door for a highly available global web application using Azure CLI
+   https://docs.microsoft.com/en-us/azure/frontdoor/quickstart-create-front-door-cli
+
+5. Azure Front Door VS Azure Traffic Manager VS Azure Application Gateway VS Azure Load Balancer
+   https://www.azure-heros.com/blog/azure-front-door-vs-azure-traffic-manager-vs-azure-application-gateway-vs-azure-load-balancer-vs-content-delivery-network-cdn
+
+   https://tutorialsdojo.com/azure-load-balancer-vs-app-gateway-vs-traffic-manager/
+
+6. Azure front door Troubleshooting common routing problems
+   https://docs.microsoft.com/en-us/azure/frontdoor/front-door-troubleshoot-routing
+
+7. Introduction to Azure Automation
+   https://docs.microsoft.com/en-us/azure/automation/automation-intro
+
+8. Create an Automation account using the Azure portal
+   https://docs.microsoft.com/en-us/azure/automation/quickstarts/create-account-portal
+
+9. Create a PowerShell Workflow runbook
+   https://docs.microsoft.com/en-us/azure/automation/learn/automation-tutorial-runbook-textual
+
 # Benifits
 
 1.High Availability,Fault Tolerance and Disaster Recovery.
