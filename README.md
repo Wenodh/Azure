@@ -652,6 +652,35 @@ In[3/9 11:25] Rk 2 Rama Krishna: Lab:
 9. Create a PowerShell Workflow runbook
    https://docs.microsoft.com/en-us/azure/automation/learn/automation-tutorial-runbook-textual
 
+[8/9 11:15] Rk 2 Rama Krishna: 1. Update Management overview
+   https://docs.microsoft.com/en-us/azure/automation/update-management/overview
+
+2. Supported regions for linked Log Analytics workspace
+   https://docs.microsoft.com/en-us/azure/automation/how-to/region-mappings
+
+3. Enable Update Management from an Automation account
+   https://docs.microsoft.com/en-us/azure/automation/update-management/enable-from-automation-account
+
+4. Start/Stop VMs during off-hours overview
+   https://docs.microsoft.com/en-us/azure/automation/automation-solution-vm-management
+
+   https://docs.microsoft.com/en-us/azure/automation/automation-solution-vm-management-enable
+
+5. Azure CDN
+   https://docs.microsoft.com/en-us/azure/cdn/cdn-overview
+
+6. Integrate an Azure Storage account with Azure CDN
+   https://docs.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn
+
+7. Add Azure CDN to an Azure App Service web app
+   https://docs.microsoft.com/en-us/azure/cdn/cdn-add-to-web-app
+[8/9 11:20] Rk 2 Rama Krishna: Lab:
+
+1. Enable Update Management in Automation Account
+2. Schedule update deployment for VM's to perform patching
+3. Create Azure CDN profile
+4. Create a endpoint for the storage account/ webapp
+
 # Benifits
 
 1.High Availability,Fault Tolerance and Disaster Recovery.
