@@ -681,6 +681,31 @@ In[3/9 11:25] Rk 2 Rama Krishna: Lab:
 3. Create Azure CDN profile
 4. Create a endpoint for the storage account/ webapp
 
+[9/9 11:06] Rk 2 Rama Krishna: https://www.thomasmaurer.ch/2019/07/assess-and-migrate-hyper-v-vms-with-azure-migrate/
+
+
+Use this document and practice migrating onprem server to azure using AzureMigrate
+[9/9 11:06] Rk 2 Rama Krishna: 1. Azure Migrate
+   https://docs.microsoft.com/en-us/azure/migrate/migrate-services-overview
+
+2. Discover servers running on Hyper-V with Azure Migrate: Discovery and assessment
+   https://docs.microsoft.com/en-us/azure/migrate/tutorial-discover-hyper-v
+
+3. Assess Hyper-V VMs for migration to Azure
+   https://docs.microsoft.com/en-us/azure/migrate/tutorial-assess-hyper-v
+
+4. Migrate Hyper-V VMs to Azure
+   https://docs.microsoft.com/en-us/azure/migrate/tutorial-migrate-hyper-v
+
+5. Assess and Migrate Hyper-V VMs with Azure Migrate
+   https://www.thomasmaurer.ch/2019/07/assess-and-migrate-hyper-v-vms-with-azure-migrate/
+
+6. Total Cost of Ownership (TCO) Calculator
+   https://azure.microsoft.com/en-in/pricing/tco/calculator/
+
+7. Troubleshoot Azure Migrate
+   https://docs.microsoft.com/en-us/azure/migrate/troubleshoot-general
+
 # Benifits
 
 1.High Availability,Fault Tolerance and Disaster Recovery.
