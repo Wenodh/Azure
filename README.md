@@ -762,3 +762,76 @@ Saas (Sofware as a service) Business User
 There are quota limits on each subscription that can impact VM creation. By default, you cannot have more than 20 virtual cores across all VMs within a region. You can either split up VMs across regions or file an online request to increase your limits.
 
 The temporary disk is not persistent. You should only write data to this disk that you are willing to lose at any time.
+
+Azure Admin Interview questions :
+
+1. What is the difference btwn HHD and SSD
+2. What are the difference between ASM model and ARM Model
+3. What is mean by Azure Spot instance 
+4. What is availability set and explain about fault domain and update domain 
+5. Difference between availability set and availability zone. 
+6. Is it possible to add a VM to availability set after creating VM? 
+7. What are the trouble shootings you perform for RDP issues 
+8. How to capture an image for the VMs
+9. If the customer what's to login to VM using private IP what is the solution 
+10. How change the size of a VM
+11. What do u create an alerts to VMs
+12. What are the general metrics to monitor VM
+
+Backup, AAD and Webapp interview questions:
+
+1. How to configure the backup to the azure vm's
+2. what are the types of backups?
+3. how to change the retentation period for the backup items
+4. how to take the backup of onprem files and folders
+5. what are the trouble shootings you have performed when you configure the backups to VM's (one or two schnarios)
+6. what is AAD (Azure Active directory)
+7. what are the licensing available for AAD
+8. what is the diff between B2c and B2B
+9. what is AD Connect
+10. tell me the step by step process how to sync onprem users to AAD
+11. what is webapp
+12. what are the pricing tiers available for appservice plan 
+13. how to take the backup for the webapps
+14. what is the monitoring tools using to monitor the application
+15. what is the deployment slots (blue green deployment)
+16. how to enable AAD authentication to your webapp
+17. how can i secure my webapp
+
+Storage & Vnet: Interview questions
+
+1. what are the types of storage accounts
+2. under which storage vhd's stored
+3. what is fileshare in storage accounts
+4. how to do make sure the data transfer is secure in storageaccount
+5. what are the redundancy options in storageaccount
+6. what is the difference between GRA and RA-GRS
+7. what are the tools used to import and export the data
+8. what are the access tiers in storageaccount
+9. what is vnet in azure
+10. what is mean by vnet peering
+11. what is the difference between vnet peering and vnet-vnet connection.
+12. explain the step by step proceedure to configure site-to-site connection
+13. explain the step by step proceedure to configure point-to-site connection
+14. what is vpn gateway
+15. what is the difference between route based and policy based in vpn gateway
+16. what will happens if we reset the vpn gateway
+17. what is NSG (network security group)
+
+Loadbalancer,Azure Automation,Keyvault,ASR and Azure Migrate Interview questions:
+
+1. what are the loadbalancing concepts in azure
+2. what is loadbalancer
+3. what is application gateway
+4. what is traffic manager
+5. what is Azure front door
+6. what is the diff between loadbalancer and application gateway
+7. what is the diff between traffic manager and front door
+8. what are the global loadbalancer in azure
+9. how to schedule the patching to azure vm using automation account
+10. what is Run as a account in automation account
+11. what is keyvault and why is it used
+12. what is ASR (Azure site recovery)
+13. what are the steps involved in migration
+14. what are the tools used for migration
+15. how to migrate onprem hyper-v machine to azure
